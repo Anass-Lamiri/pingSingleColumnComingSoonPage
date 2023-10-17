@@ -5,10 +5,10 @@ let submit = document.querySelector('.submit');
 // console.log(input.checkValidity());
 function validity() {
     if (!input.checkValidity()) {
-        console.log("invalid");
+        input.className += " input_invalid"
     }else{
         console.log("valid");
     }
 }
 
-submit.addEventListener("click", validity())
+submit.addEventListener("click", validity)

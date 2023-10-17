@@ -93,9 +93,19 @@
     color: var(--neutral-color-blue);
     margin-bottom: 10px;
 }
-.input_text:invalid {
+.input_invalid {
     border: none;
     outline: 2px var(--secondary-color-red) solid;
+}
+
+.error {
+    display: none;
+    margin-top: -4px;
+    margin-bottom: 20px;
+    color: hsl(353deg 58% 66%);
+    font-size: 12px;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-med);
 }
 
 .newsletter .submit {
